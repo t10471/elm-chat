@@ -17,7 +17,7 @@ mainWrap =
 postForm : Attribute msg
 postForm =
     style
-        [ ( "min-height", "120px" )
+        [ ( "min-height", "180px" )
         , ( "border-bottom", "solid 2px #c4c4c4" )
         ]
 
@@ -62,7 +62,6 @@ postButton : Attribute msg
 postButton =
     style
         [ ( "margin-top", "8px" )
-        , ( "margin-right", "16px" )
         , ( "width", "84px" )
         , ( "height", "28px" )
         , ( "float", "right" )
@@ -148,13 +147,13 @@ talkFooter =
 buttons : Attribute msg
 buttons =
     style
-        [ ("float", "right") ]
+        [ ( "float", "right" ) ]
 
 
 editButton : Attribute msg
 editButton =
     style
-        [ ("margin-right", "8px") ]
+        [ ( "margin-right", "8px" ) ]
 
 
 deleteButton : Attribute msg
